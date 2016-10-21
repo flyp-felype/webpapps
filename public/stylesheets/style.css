@@ -1,0 +1,51 @@
+body {
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; 
+	margin:0; 
+}
+
+.pageContent{
+	width: 	100%;
+	max-width: 800px;
+	height:100vh;
+	margin: 0 auto;	
+	background-color: rgb(230, 237, 244);
+}
+
+.userBlock{
+	width: 100%;	
+	height: 80px;
+	color: #FFFFFF;
+	font-size: 18px;
+	text-align: center;	
+}
+
+.userBlock:hover{
+	cursor:pointer;
+	opacity: 0.75;
+}
+
+.bebidas{background-color: #C06C84;}
+.carnes{background-color: #355C7D; }
+.petiscos{background-color: #F67280;}
+.acessorios{background-color: #F7B59C;}
+
+.bebidas .catImg{ background: url('../images/beer.svg');}
+.carnes .catImg{ background: url('../images/meat.svg'); }
+.petiscos .catImg{ background: url('../images/food.svg'); }
+.acessorios .catImg{ background: url('../images/acessories.svg'); }
+
+.catImg{
+    background-color: red;
+    display: inline-block;
+    height: 60px;
+    margin-top: 10px;
+    vertical-align: middle;
+    width: 60px;
+    color: blue;
+}
+.catTitle{
+    display: inline-block;
+    margin-top: 10px;
+    min-width: 100px;
+    vertical-align: middle;
+}

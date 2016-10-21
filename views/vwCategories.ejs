@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Categories</title>
+	<link rel='stylesheet' href='/stylesheets/style.css' />
+	<script type="text/javascript" src='/javascripts/jquery-3.1.1.min.js'></script>
+	<script type="text/javascript" src='/javascripts/utils.js'></script>
+	<script type="text/javascript" src='/javascripts/Categorias.js'></script>
+</head>
+<body>
+	<div class='pageContent'>
+		<% 	for(var i=0; i < categories.length; i++) { %> 		
+		<div class='userBlock <%= categories[i].cssClass %>'>
+			<div class='catImg'></div>   
+			<div class='catTitle'><%= categories[i].title %></div>   
+		</div>
+		<%	}  %>
+	</div>
+</body>
+</html>
